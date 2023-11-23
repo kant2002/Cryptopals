@@ -65,3 +65,11 @@ static class Масив
     }
 }
 
+static class Файл
+{
+    public static рядок[] ПрочитатиУсіРядки(рядок шлях)
+    {
+        return File.ReadAllLines(шлях);
+    }
+}
+
